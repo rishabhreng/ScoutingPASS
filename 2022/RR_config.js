@@ -134,10 +134,10 @@ var config_data = `
           "title":"Defense Performance",
           "type":"radio",
           "choices": {
-              "b":"bad",
-              "a":"average",
-              "g":"great",
-              "x":"didn't defend"
+              "1":"Not effective",
+              "2":"average",
+              "3":"Very Effective",
+              "4":"Didn't Defend"
           },
           "defaultValue":"x"
       },
@@ -146,10 +146,10 @@ var config_data = `
         "title":"Defense Evasion",
         "type":"radio",
         "choices": {
-            "b":"bad",
-            "a":"average",
-            "g":"great",
-            "x":"didn't encounter defense"
+            "1":"Not Good",
+            "2":"average",
+            "3":"Very Good",
+            "4":"Didn't Encounter Defense"
         },
         "defaultValue":"x"
     }
