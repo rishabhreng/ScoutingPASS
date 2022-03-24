@@ -4,60 +4,23 @@ var config_data = `
   "page_title":"Rapid React",
   "elements":{
     "prematch": {
-      "Scouter Initials": {
-        "code":"s",
-        "type":"scouter",
-        "size":5,
-        "maxSize":5
-      },
-      "Event":{
-        "code":"e",
-        "type":"event",
-        "defaultValue":"2022txfor",
-        "disabled":"true"
-      },
-      "Match Level":{
-        "code":"l",
-        "type":"level",
+      "Starting Position": {
+        "code":"sp",
+        "title":"Starting Position",
+        "type":"radio",
         "choices":{
-          "qm":"Quals<br>",
-          "ef":"Eighth-Final<br>",
-          "qf":"Quarter-Final<br>",
-          "sf":"Semi-Final<br>",
-          "f":"Final"
+            "1":"1",
+            "2":"2",
+            "3":"3",
+            "4":"4"
         },
-        "defaultValue":"qm"
-      },
-      "Match #":{
-        "code":"m",
-        "type":"match",
-        "min":1,
-        "max":100
-      },
-     "Robot": {
-        "code":"r",
-        "type":"robot",
-        "choices":{
-          "r1":"Red-1",
-          "b1":"Blue-1<br>",
-          "r2":"Red-2",
-          "b2":"Blue-2<br>",
-          "r3":"Red-3",
-          "b3":"Blue-3"
-        }
-      },
-      "Team #": {
-        "code":"t",
-        "type":"team",
-        "min":1,
-        "max":99999
-      },
-      "Auto Start Position": {
-        "code":"as",
-        "title": "Auto Start Position",
-        "type":"field_image",
-        "filename":"2022/field_image.png"
-      }
+        "defaultValue":"1"
+    },
+    "Cargo Preload": {
+        "code":"cp",
+        "title":"Cargo Preloaded?",
+        "type":"bool"
+    }
     },
     "auton": {
       "Taxi": {
