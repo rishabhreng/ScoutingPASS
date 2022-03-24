@@ -9,13 +9,11 @@ var config_data = `
         "type":"scouter",
         "size":5,
         "maxSize":5
-  
       },
       "Event":{
         "code":"e",
         "type":"event",
         "defaultValue":"2022flwp",
-        
         "disabled":"true"
       },
       "Match Level":{
@@ -29,14 +27,12 @@ var config_data = `
           "f":"Final"
         },
         "defaultValue":"qm"
-        
       },
       "Match #":{
         "code":"m",
         "type":"match",
         "min":1,
         "max":100
-        
       },
      "Robot": {
         "code":"r",
@@ -49,7 +45,6 @@ var config_data = `
           "r3":"Red-3",
           "b3":"Blue-3"
         }
-        
       },
       "Team #": {
         "code":"t",
