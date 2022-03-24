@@ -130,28 +130,28 @@ var config_data = `
         "type":"counter"
       },
       "Defense Performance": {
-          "code":"de",
+          "code":"dp",
           "title":"Defense Performance",
           "type":"radio",
           "choices": {
-              "1":"Not effective",
-              "2":"average",
-              "3":"Very Effective",
+              "1":"Not effective<br>",
+              "2":"average<br>",
+              "3":"Very Effective<br>",
               "4":"Didn't Defend"
           },
           "defaultValue":"4"
       },
       "Defense Evasion": {
-        "code":"dp",
+        "code":"de",
         "title":"Defense Evasion",
         "type":"radio",
         "choices": {
-            "1":"Not Good",
-            "2":"average",
-            "3":"Very Good",
-            "4":"Didn't Encounter Defense"
+            "n":"Not Good<br>",
+            "a":"Average<br>",
+            "v":"Very Good<br>",
+            "d":"Didn't Encounter Defense"
         },
-        "defaultValue":"4"
+        "defaultValue":"d"
     }
     },
     "endgame": {
