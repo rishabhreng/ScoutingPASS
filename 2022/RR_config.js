@@ -174,7 +174,6 @@ var config_data = `
         },
         "defaultValue":"x"
       }
-    }
     },
     "postmatch": {
       "Foul": {
@@ -197,4 +196,5 @@ var config_data = `
       
     }
   }
+}
 `
