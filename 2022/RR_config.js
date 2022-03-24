@@ -8,8 +8,8 @@ var config_data = `
         "code":"s",
         "type":"scouter",
         "size":5,
-        "maxSize":5,
-        
+        "maxSize":5
+  
       },
       "Event":{
         "code":"e",
@@ -28,14 +28,14 @@ var config_data = `
           "sf":"Semi-Final<br>",
           "f":"Final"
         },
-        "defaultValue":"qm",
+        "defaultValue":"qm"
         
       },
       "Match #":{
         "code":"m",
         "type":"match",
         "min":1,
-        "max":100,
+        "max":100
         
       },
      "Robot": {
@@ -48,7 +48,7 @@ var config_data = `
           "b2":"Blue-2<br>",
           "r3":"Red-3",
           "b3":"Blue-3"
-        },
+        }
         
       },
       "Team #": {
