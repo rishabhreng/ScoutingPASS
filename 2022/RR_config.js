@@ -8,12 +8,14 @@ var config_data = `
         "code":"s",
         "type":"scouter",
         "size":5,
-        "maxSize":5
+        "maxSize":5,
+        "required":"true"
       },
       "Event":{
         "code":"e",
         "type":"event",
-        "defaultValue":"2022flwp",
+        "defaultValue":"2022txfor",
+        "required":"true",
         "disabled":"true"
       },
       "Match Level":{
@@ -26,13 +28,15 @@ var config_data = `
           "sf":"Semi-Final<br>",
           "f":"Final"
         },
-        "defaultValue":"qm"
+        "defaultValue":"qm",
+        "required":"true"
       },
       "Match #":{
         "code":"m",
         "type":"match",
         "min":1,
-        "max":100
+        "max":100,
+        "required":"true"
       },
      "Robot": {
         "code":"r",
@@ -44,7 +48,8 @@ var config_data = `
           "b2":"Blue-2<br>",
           "r3":"Red-3",
           "b3":"Blue-3"
-        }
+        },
+        "required":"true"
       },
       "Team #": {
         "code":"t",
