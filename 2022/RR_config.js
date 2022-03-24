@@ -130,7 +130,7 @@ var config_data = `
         "type":"counter"
       },
       "Defense Performance": {
-          "code":"dp",
+          "code":"de",
           "title":"Defense Performance",
           "type":"radio",
           "choices": {
@@ -139,7 +139,7 @@ var config_data = `
               "3":"Very Effective",
               "4":"Didn't Defend"
           },
-          "defaultValue":"x"
+          "defaultValue":"4"
       },
       "Defense Evasion": {
         "code":"dp",
@@ -151,7 +151,7 @@ var config_data = `
             "3":"Very Good",
             "4":"Didn't Encounter Defense"
         },
-        "defaultValue":"x"
+        "defaultValue":"4"
     }
     },
     "endgame": {
