@@ -526,32 +526,32 @@ function validateLevel() {
 	}
 }
 
-function validateData() {
-	var ret = true
-	// var errStr = "Bad fields: ";
-	// for (rf of requiredFields) {
-	// 	// Robot requires special (radio) validation
-	// 	if (rf == "r") {
-	// 		if (!validateRobot()) {
-	// 			errStr += rf + " "
-	// 			ret = false
-	// 		}
-	// 	} else if (rf == "l") {
-	// 		if (!validateLevel()) {
-	// 			errStr += rf + " "
-	// 			ret = false
-	// 		}
-	// 	// Normal validation (length <> 0)
-	// 	} else if (document.getElementById("input_"+rf).value.length == 0) {
-	// 		errStr += rf + " "
-	// 		ret = false
-	// 	}
-	// }
-	// if (ret == false) {
-	// 	alert("Enter all required values\n"+errStr);
-	// }
-	return ret
-}
+// function validateData() {
+// 	var ret = true
+// 	var errStr = "Bad fields: ";
+// 	for (rf of requiredFields) {
+// 		// Robot requires special (radio) validation
+// 		if (rf == "r") {
+// 			if (!validateRobot()) {
+// 				errStr += rf + " "
+// 				ret = false
+// 			}
+// 		} else if (rf == "l") {
+// 			if (!validateLevel()) {
+// 				errStr += rf + " "
+// 				ret = false
+// 			}
+// 		// Normal validation (length <> 0)
+// 		} else if (document.getElementById("input_"+rf).value.length == 0) {
+// 			errStr += rf + " "
+// 			ret = false
+// 		}
+// 	}
+// 	if (ret == false) {
+// 		alert("Enter all required values\n"+errStr);
+// 	}
+// 	return ret
+// }
 
 function getData() {
 	var str = ''
@@ -608,10 +608,10 @@ function updateQRHeader() {
 
 function qr_regenerate() {
 	// Validate required pre-match date (event, match, level, robot, scouter)
-	if (validateData() == false) {
+	// if (validateData() == false) {
 		// Don't allow a swipe until all required data is filled in
-		return false
-	}
+		// return false
+	// }
 
 	// Get data
 	data = getData()
