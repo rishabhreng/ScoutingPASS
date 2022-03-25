@@ -137,7 +137,7 @@ var config_data = `
               "1":"Not effective<br>",
               "2":"Average<br>",
               "3":"Very Effective<br>",
-              "0":"Didn't Defend"
+              "0":"Didn't Defend<br>"
           },
           "defaultValue":"0"
       },
@@ -149,7 +149,7 @@ var config_data = `
             "1":"Not Good<br>",
             "2":"Average<br>",
             "3":"Very Good<br>",
-            "0":"Didn't Encounter Defense"
+            "0":"Didn't Encounter Defense<br>"
         },
         "defaultValue":"0"
     }
@@ -183,12 +183,12 @@ var config_data = `
       },
       "Technical Foul": {
         "code":"tf",
-        "title": "Had technical fouls?",
+        "title": "Had technical fouls?",r
         "type":"bool"
       },
       "Comments": {
         "code":"co",
-        "title": "Comments",
+        "title": "Comments (driver ability/style; strategic/problem solving; type of fouls drawn: pinning; damage to other robots, inside other robot's frame perimeter; consistent shooting from a few spots; anything else notable",
         "type":"text",
         "size":15,
         "maxSize":400
