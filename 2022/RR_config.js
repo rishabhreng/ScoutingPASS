@@ -183,7 +183,7 @@ var config_data = `
       },
       "Technical Foul": {
         "code":"tf",
-        "title": "Had technical fouls?",r
+        "title": "Had technical fouls?",
         "type":"bool"
       },
       "Comments": {
