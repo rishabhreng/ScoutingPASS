@@ -14,7 +14,7 @@ var config_data = `
       "Event":{
         "code":"e",
         "type":"event",
-        "defaultValue":"2022txfor",
+        "defaultValue":"2022txirv",
         "required":"true",
         "disabled":"true"
       },
