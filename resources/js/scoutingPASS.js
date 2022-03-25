@@ -581,9 +581,9 @@ function getData() {
 			}
 			if (e.value == "on") {
 				if (e.checked) {
-					str=str+code+'=Y'
+					str=str+code+'=1'
 				} else {
-					str=str+code+'=N'
+					str=str+code+'=0'
 				}
 			} else {
 				str=str+code+'='+e.value.split(';').join('-')
