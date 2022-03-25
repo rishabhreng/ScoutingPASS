@@ -137,9 +137,9 @@ var config_data = `
               "1":"Not effective<br>",
               "2":"Average<br>",
               "3":"Very Effective<br>",
-              "4":"Didn't Defend"
+              "0":"Didn't Defend"
           },
-          "defaultValue":"4"
+          "defaultValue":"0"
       },
       "Defense Evasion": {
         "code":"de",
@@ -149,9 +149,9 @@ var config_data = `
             "1":"Not Good<br>",
             "2":"Average<br>",
             "3":"Very Good<br>",
-            "4":"Didn't Encounter Defense"
+            "0":"Didn't Encounter Defense"
         },
-        "defaultValue":"d"
+        "defaultValue":"0"
     }
     },
     "endgame": {
