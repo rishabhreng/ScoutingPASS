@@ -135,7 +135,7 @@ var config_data = `
           "type":"radio",
           "choices": {
               "1":"Not effective<br>",
-              "2":"average<br>",
+              "2":"Average<br>",
               "3":"Very Effective<br>",
               "4":"Didn't Defend"
           },
@@ -146,10 +146,10 @@ var config_data = `
         "title":"Defense Evasion",
         "type":"radio",
         "choices": {
-            "n":"Not Good<br>",
-            "a":"Average<br>",
-            "v":"Very Good<br>",
-            "d":"Didn't Encounter Defense"
+            "1":"Not Good<br>",
+            "2":"Average<br>",
+            "3":"Very Good<br>",
+            "4":"Didn't Encounter Defense"
         },
         "defaultValue":"d"
     }
