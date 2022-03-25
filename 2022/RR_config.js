@@ -169,10 +169,10 @@ var config_data = `
           "2":"Mid<br>",
           "3":"High<br>",
           "4":"Traversal<br>",
-          "f":"Failed<br>",
-          "x":"Not attempted"
+          "0":"Failed<br>",
+          "-1":"Not attempted"
         },
-        "defaultValue":"x"
+        "defaultValue":"-1"
       }
     },
     "postmatch": {
@@ -191,7 +191,7 @@ var config_data = `
         "title": "Comments",
         "type":"text",
         "size":15,
-        "maxSize":50
+        "maxSize":400
       }
       
     }
