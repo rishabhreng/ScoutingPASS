@@ -134,10 +134,10 @@ var config_data = `
           "title":"Defense Performance",
           "type":"radio",
           "choices": {
-              "0":"Didn't Defend<br>"
+              "0":"Didn't Defend<br>",
               "1":"Not effective<br>",
               "2":"Average<br>",
-              "3":"Very Effective<br>",
+              "3":"Very Effective<br>"
           },
           "defaultValue":"0"
       },
@@ -146,10 +146,10 @@ var config_data = `
         "title":"Defense Evasion",
         "type":"radio",
         "choices": {
-            "0":"Didn't Encounter Defense<br>"
+            "0":"Didn't Encounter Defense<br>",
             "1":"Not Good<br>",
             "2":"Average<br>",
-            "3":"Very Good<br>",
+            "3":"Very Good<br>"
         },
         "defaultValue":"0"
     }
@@ -169,7 +169,7 @@ var config_data = `
           "2":"Mid<br>",
           "3":"High<br>",
           "4":"Traversal<br>",
-          "0":"Failed<br>",
+          "0":"Failed<br>"
         }
       }
     },
@@ -190,8 +190,7 @@ var config_data = `
         "type":"text",
         "size":15,
         "maxSize":400
-      }
-      
+      }     
     }
   }
 }
