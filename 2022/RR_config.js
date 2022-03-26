@@ -74,13 +74,13 @@ var config_data = `
               "4":"4"
           },
           "defaultValue":"1"
-      },
-      "Cargo Preload": {
-          "code":"cp",
-          "title":"Cargo Preloaded?",
-          "type":"bool"
       }
     },
+    "Cargo Preload": {
+      "code":"cp",
+      "title":"Cargo Preloaded?",
+      "type":"bool"
+  },
     "auton": {
       "Taxi off Tarmac": {
         "code":"at",
@@ -102,7 +102,7 @@ var config_data = `
         "title": "Lower Cargo Scored",
         "type":"counter"
       },
-      "Cargo Dropped": {
+      "Cargo Dropped/Missed": {
         "code":"acd",
         "title": "Cargo Dropped",
         "type":"counter"
@@ -124,7 +124,7 @@ var config_data = `
         "title": "Lower Cargo Scored",
         "type":"counter"
       },
-      "Cargo Dropped": {
+      "Cargo Dropped/Missed": {
         "code":"tcd",
         "title": "Cargo Dropped",
         "type":"counter"
@@ -134,10 +134,10 @@ var config_data = `
           "title":"Defense Performance",
           "type":"radio",
           "choices": {
+              "0":"Didn't Defend<br>"
               "1":"Not effective<br>",
               "2":"Average<br>",
               "3":"Very Effective<br>",
-              "0":"Didn't Defend<br>"
           },
           "defaultValue":"0"
       },
@@ -146,10 +146,10 @@ var config_data = `
         "title":"Defense Evasion",
         "type":"radio",
         "choices": {
+            "0":"Didn't Encounter Defense<br>"
             "1":"Not Good<br>",
             "2":"Average<br>",
             "3":"Very Good<br>",
-            "0":"Didn't Encounter Defense<br>"
         },
         "defaultValue":"0"
     }
@@ -170,9 +170,7 @@ var config_data = `
           "3":"High<br>",
           "4":"Traversal<br>",
           "0":"Failed<br>",
-          "-1":"Not attempted"
-        },
-        "defaultValue":"-1"
+        }
       }
     },
     "postmatch": {
@@ -186,7 +184,7 @@ var config_data = `
         "title": "Had technical fouls?",
         "type":"bool"
       },
-      "Comments (driver ability/style; strategic/problem solving; type of fouls drawn: pinning,<br> damage to other robots, inside other robot's frame perimeter; consistent shooting from a few spots; anything else notable": {
+      "Comments (swerve/tank, driver ability/style; strategic/problem solving; type of fouls drawn: pinning,<br> damage to other robots, inside other robot's frame perimeter; consistent shooting from a few spots; anything else notable": {
         "code":"co",
         "title": "Comments",
         "type":"text",
