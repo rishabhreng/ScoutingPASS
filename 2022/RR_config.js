@@ -183,7 +183,7 @@ var config_data = `
       },
       "Technical Foul": {
         "code":"tf",
-        "title": "Had technical fouls?",
+        "title": "Had technical fouls?",r
         "type":"bool"
       },
       "Comments (driver ability/style; strategic/problem solving; type of fouls drawn: pinning, damage to other robots, inside other robot's frame perimeter; <br> consistent shooting from a few spots; anything else notable": {
