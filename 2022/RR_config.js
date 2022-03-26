@@ -1,4 +1,5 @@
 var config_data = `
+
 {
   "title":"Scouting PASS 2022",
   "page_title":"Rapid React",
@@ -165,7 +166,7 @@ var config_data = `
         "title": "Climb Level",
         "type":"radio",
         "choices":{
-          "-1":"Not Attempted"<br>
+          "-1":"Not Attempted<br>",
           "1":"Low<br>",
           "2":"Mid<br>",
           "3":"High<br>",
