@@ -186,9 +186,9 @@ var config_data = `
         "title": "Had technical fouls?",
         "type":"bool"
       },
-      "Comments": {
+      "Comments (driver ability/style; strategic/problem solving; type of fouls drawn: pinning; damage to other robots, inside other robot's frame perimeter; consistent shooting from a few spots; anything else notable": {
         "code":"co",
-        "title": "Comments (driver ability/style; strategic/problem solving; type of fouls drawn: pinning; damage to other robots, inside other robot's frame perimeter; consistent shooting from a few spots; anything else notable",
+        "title": "Comments",
         "type":"text",
         "size":15,
         "maxSize":400
