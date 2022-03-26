@@ -1,5 +1,4 @@
 var config_data = `
-
 {
   "title":"Scouting PASS 2022",
   "page_title":"Rapid React",
