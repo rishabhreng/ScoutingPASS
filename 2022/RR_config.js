@@ -80,7 +80,7 @@ var config_data = `
         "title":"Cargo Preloaded?",
         "type":"bool"
       }
-    },
+  },
     "auton": {
       "Taxi off Tarmac": {
         "code":"at",
