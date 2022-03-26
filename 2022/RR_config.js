@@ -52,7 +52,7 @@ var config_data = `
         "required":"true"
       },
       "Team #": {
-        "code":"t",
+        "code":"t",                                    
         "type":"team",
         "min":1,
         "max":99999
@@ -165,12 +165,14 @@ var config_data = `
         "title": "Climb Level",
         "type":"radio",
         "choices":{
+          "-1":"Not Attempted"<br>
           "1":"Low<br>",
           "2":"Mid<br>",
           "3":"High<br>",
           "4":"Traversal<br>",
           "0":"Failed<br>"
-        }
+        },
+        "defaultValue":"-1"
       }
     },
     "postmatch": {
