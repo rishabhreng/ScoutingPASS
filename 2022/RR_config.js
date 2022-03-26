@@ -74,13 +74,13 @@ var config_data = `
               "4":"4"
           },
           "defaultValue":"1"
+      },
+      "Cargo Preload": {
+        "code":"cp",
+        "title":"Cargo Preloaded?",
+        "type":"bool"
       }
     },
-    "Cargo Preload": {
-      "code":"cp",
-      "title":"Cargo Preloaded?",
-      "type":"bool"
-  },
     "auton": {
       "Taxi off Tarmac": {
         "code":"at",
