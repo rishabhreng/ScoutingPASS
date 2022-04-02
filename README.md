@@ -1,5 +1,8 @@
 <div id="top"></div>
 
+Edited by Rishabh Rengarajan: new config sheet, works with SPAMalytics.
+
+
 # Scouting P.A.S.S.
 
 #### A scouting system for FIRST FRC competitions developed by [PWNAGE - Team #2451](https://pwnagerobotics.org).
