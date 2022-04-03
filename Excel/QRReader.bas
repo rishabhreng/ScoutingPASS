@@ -97,9 +97,6 @@ Sub saveData(ByVal inp As String, Optional ByVal rowNum As String = "4")
         Worksheets("Data Entry").Range("P" + rowNum) = valList.Item(21)
         Worksheets("Data Entry").Range("Q" + rowNum) = valList.Item(22)
         Worksheets("Data Entry").Range("R" + rowNum) = valList.Item(23)
-        Call EnterNotes(valList.Item(24), Range("A" & rowNum).value)
+        Call EnterNotes(valList.Item(3) & valList.Item(4) & " " & valList.Item(24), Range("A" & rowNum).value)
     End If
 End Sub
-
-
-

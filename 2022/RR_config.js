@@ -179,7 +179,7 @@ var config_data = `
       "Foul": {
         "code":"f",
         "title": "Had fouls?",
-        "type":"bool"
+        "type":"counter"
       },
       "Technical Foul": {
         "code":"tf",
