@@ -190,7 +190,7 @@ var config_data = `
         "code":"dt",
         "title":"Died/Tipped",
         "type":"bool"
-      }
+      },
       "Comments (swerve/tank, fast/slow speed, climb time, crippled by defense?-couldn't score; driver ability/style; <br>strategic/problem solving; type of fouls drawn: pinning,<br> damage to other robots, inside other robot's frame perimeter; <br>consistent shooting from a few spots; anything else notable": {
         "code":"co",
         "title": "Comments",
