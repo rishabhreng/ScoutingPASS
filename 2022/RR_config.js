@@ -4,7 +4,7 @@ var config_data = `
   "page_title":"Rapid React",
   "elements":{
     "prematch": {
-      "Scouter Initials": {
+      "Scouter Initials (Required)": {
         "code":"s",
         "type":"scouter",
         "size":5,
@@ -18,7 +18,7 @@ var config_data = `
         "required":"true",
         "disabled":"true"
       },
-      "Match Level":{
+      "Match Level (Required)":{
         "code":"l",
         "type":"level",
         "choices":{
@@ -31,7 +31,7 @@ var config_data = `
         "defaultValue":"qm",
         "required":"true"
       },
-      "Match #":{
+      "Match # (Required)":{
         "code":"m",
         "type":"match",
         "min":1,
@@ -51,13 +51,13 @@ var config_data = `
         },
         "required":"true"
       },
-      "Team #": {
+      "Team # ": {
         "code":"t",                                    
         "type":"team",
         "min":1,
         "max":99999
       },
-      "Auto Start Position": {
+      "Auto Start Position Map(Required)<br>Just press a random location.": {
         "code":"as",
         "title": "Auto Start Position",
         "type":"field_image",
@@ -147,7 +147,7 @@ var config_data = `
         "type":"radio",
         "choices": {
             "0":"Didn't Encounter Defense<br>",
-            "1":"Below Averagebr>",
+            "1":"Below Average<br>",
             "2":"Average<br>",
             "3":"Above Average<br>"
         },
@@ -186,7 +186,12 @@ var config_data = `
         "title": "Had technical fouls?",
         "type":"counter"
       },
-      "Comments (swerve/tank, fast/slow speed, climb time, driver ability/style; <br>strategic/problem solving; type of fouls drawn: pinning,<br> damage to other robots, inside other robot's frame perimeter; <br>consistent shooting from a few spots; anything else notable": {
+      "Died/Tipped": {
+        "code":"dt",
+        "title":"Died/Tipped",
+        "type":"bool"
+      }
+      "Comments (swerve/tank, fast/slow speed, climb time, crippled by defense?-couldn't score; driver ability/style; <br>strategic/problem solving; type of fouls drawn: pinning,<br> damage to other robots, inside other robot's frame perimeter; <br>consistent shooting from a few spots; anything else notable": {
         "code":"co",
         "title": "Comments",
         "type":"text",
