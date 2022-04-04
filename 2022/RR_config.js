@@ -135,9 +135,9 @@ var config_data = `
           "type":"radio",
           "choices": {
               "0":"Didn't Defend<br>",
-              "1":"Not effective<br>",
+              "1":"Below Average<br>",
               "2":"Average<br>",
-              "3":"Very Effective<br>"
+              "3":"Above Average<br>"
           },
           "defaultValue":"0"
       },
@@ -147,9 +147,9 @@ var config_data = `
         "type":"radio",
         "choices": {
             "0":"Didn't Encounter Defense<br>",
-            "1":"Not Good<br>",
+            "1":"Below Averagebr>",
             "2":"Average<br>",
-            "3":"Very Good<br>"
+            "3":"Above Average<br>"
         },
         "defaultValue":"0"
     }
@@ -184,14 +184,14 @@ var config_data = `
       "Technical Foul": {
         "code":"tf",
         "title": "Had technical fouls?",
-        "type":"bool"
+        "type":"counter"
       },
       "Comments (swerve/tank, fast/slow speed, climb time, driver ability/style; <br>strategic/problem solving; type of fouls drawn: pinning,<br> damage to other robots, inside other robot's frame perimeter; <br>consistent shooting from a few spots; anything else notable": {
         "code":"co",
         "title": "Comments",
         "type":"text",
         "size":15,
-        "maxSize":400
+        "maxSize":1000
       }     
     }
   }
