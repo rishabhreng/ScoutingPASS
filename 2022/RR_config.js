@@ -23,7 +23,6 @@ var config_data = `
         "type":"level",
         "choices":{
           "qm":"Quals<br>",
-          "ef":"Eighth-Final<br>",
           "qf":"Quarter-Final<br>",
           "sf":"Semi-Final<br>",
           "f":"Final"
@@ -51,11 +50,12 @@ var config_data = `
         },
         "required":"true"
       },
-      "Team # ": {
+      "Team # (Required)": {
         "code":"t",                                    
         "type":"team",
         "min":1,
-        "max":99999
+        "max":9999
+        "required":"true"
       },
       "Auto Start Position Map(Required)<br>Just press a random location.": {
         "code":"as",
