@@ -165,14 +165,13 @@ var config_data = `
         "title": "Climb Level",
         "type":"radio",
         "choices":{
-          "-1":"Not Attempted<br>",
+          "0":"Not Attempted/Failed<br>",
           "1":"Low<br>",
           "2":"Mid<br>",
           "3":"High<br>",
           "4":"Traversal<br>",
-          "0":"Failed<br>"
         },
-        "defaultValue":"-1"
+        "defaultValue":"0"
       }
     },
     "postmatch": {
