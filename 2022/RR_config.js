@@ -54,7 +54,7 @@ var config_data = `
         "code":"t",                                    
         "type":"team",
         "min":1,
-        "max":9999
+        "max":9999,
         "required":"true"
       },
       "Auto Start Position Map(Required)<br>Just press a random location.": {
