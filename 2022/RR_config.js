@@ -63,9 +63,9 @@ var config_data = `
         "type":"field_image",
         "filename":"2022/field_image.png"
       },
-      "Starting Position": {
-          "code":"sp",
-          "title":"Starting Position",
+      "Starting Location": {
+          "code":"sl",
+          "title":"Starting Location",
           "type":"radio",
           "choices":{
               "1":"1",
