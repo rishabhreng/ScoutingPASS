@@ -78,6 +78,7 @@ Sub saveData(ByVal inp As String, Optional ByVal rowNum As String = "4")
         Next
         
         
+        
         'manual bash to put data where it needs to be in data entry sheet
         'note the switch in 1st and 2nd line, caused by accident in qr output, don't change
         Worksheets("Data Entry").Range("C" + rowNum) = valList.Item(8)
@@ -92,11 +93,11 @@ Sub saveData(ByVal inp As String, Optional ByVal rowNum As String = "4")
         Worksheets("Data Entry").Range("L" + rowNum) = valList.Item(16)
         Worksheets("Data Entry").Range("M" + rowNum) = valList.Item(17)
         Worksheets("Data Entry").Range("N" + rowNum) = valList.Item(18)
-        Worksheets("Data Entry").Range("S" + rowNum) = valList.Item(19)
-        Worksheets("Data Entry").Range("O" + rowNum) = valList.Item(20)
-        Worksheets("Data Entry").Range("P" + rowNum) = valList.Item(21)
-        Worksheets("Data Entry").Range("Q" + rowNum) = valList.Item(22)
-        Worksheets("Data Entry").Range("R" + rowNum) = valList.Item(23)
-        Call EnterNotes(valList.Item(3) & valList.Item(4) & " " & valList.Item(24), Range("A" & rowNum).value)
+        Worksheets("Data Entry").Range("O" + rowNum) = valList.Item(19)
+        Worksheets("Data Entry").Range("P" + rowNum) = valList.Item(20)
+        Worksheets("Data Entry").Range("Q" + rowNum) = valList.Item(21)
+        Worksheets("Data Entry").Range("R" + rowNum) = valList.Item(22)
+        Worksheets("Data Entry").Range("S" + rowNum) = valList.Item(23)
+        Call EnterNotes(valList.Item(3) & valList.Item(4) & " " & valList.Item(25), Range("A" & rowNum).value)
     End If
 End Sub
