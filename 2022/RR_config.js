@@ -169,7 +169,7 @@ var config_data = `
           "1":"Low<br>",
           "2":"Mid<br>",
           "3":"High<br>",
-          "4":"Traversal<br>",
+          "4":"Traversal<br>"
         },
         "defaultValue":"0"
       }
