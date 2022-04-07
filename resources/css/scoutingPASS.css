@@ -156,6 +156,12 @@ h2{
     display: inline-block;
 }
 
+#lastPageButton1, #firstPageButton1 {
+    font-family: MandatoryPlaything;
+    padding: 10px;
+    background-color: black;
+    color:white
+}
 #nextButton3, #nextButton4, #nextButton5, #nextButton6, #nextButton7, #nextButton8, .undoButton{
     font-family: MandatoryPlaything;
     background-color: black; 
