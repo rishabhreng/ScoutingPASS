@@ -37,7 +37,7 @@ var config_data = `
         "max":100,
         "required":"true"
       },
-     "Robot": {
+     "Robot (Required)": {
         "code":"r",
         "type":"robot",
         "choices":{
@@ -57,7 +57,7 @@ var config_data = `
         "max":9999,
         "required":"true"
       },
-      "Auto Start Position Map(Required)<br>Just press a random location.": {
+      "Auto Start Position Map (Required)<br>Just press a random location.": {
         "code":"as",
         "title": "Auto Start Position",
         "type":"field_image",

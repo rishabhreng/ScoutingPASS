@@ -163,6 +163,13 @@ h2{
     color: white;
 }
 
+#firstPageButton1, #lastPageButton1{
+    font-family: Alexis;
+    background-color: aqua;
+    padding: 10px;
+    color: white;
+}
+
 #prevButton7, #prevButton8, #prevButton9{
     font-family: Alexis;
     background-color: rgb(151, 199, 240); 
@@ -174,7 +181,6 @@ h2{
     background-color: black; 
     padding: 10px;
     color: white;
-    
 }
 
 #prematch_table{
