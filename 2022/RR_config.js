@@ -14,7 +14,7 @@ var config_data = `
       "Event":{
         "code":"e",
         "type":"event",
-        "defaultValue":"2022txaus",
+        "defaultValue":"2022txcmp2",
         "required":"true",
         "disabled":"true"
       },
