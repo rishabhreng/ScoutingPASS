@@ -109,7 +109,7 @@ var config_data = `
       }
     },
     "teleop": {
-        "Cargo Acquired": {
+        "Cargo Acquired (sum of next three categories)": {
             "code":"tca",
             "title":"Cargo Acquired",
             "type":"counter"
