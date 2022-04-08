@@ -109,11 +109,6 @@ var config_data = `
       }
     },
     "teleop": {
-        "Cargo Acquired (sum of next three categories)": {
-            "code":"tca",
-            "title":"Cargo Acquired",
-            "type":"counter"
-        },
       "Upper Cargo Scored": {
         "code":"tu",
         "title": "Upper Cargo Scored",
