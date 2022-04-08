@@ -8,7 +8,7 @@ var config_data = `
         "code":"s",
         "type":"scouter",
         "size":5,
-        "maxSize":5,
+        "maxSize":50,
         "required":"true"
       },
       "Event":{
