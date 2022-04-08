@@ -4,7 +4,7 @@ var config_data = `
   "page_title":"Rapid React",
   "elements":{
     "prematch": {
-      "Scouter Initials (Required)": {
+      "Scouter Last Name (Required, if unclear put first name)": {
         "code":"s",
         "type":"scouter",
         "size":5,
