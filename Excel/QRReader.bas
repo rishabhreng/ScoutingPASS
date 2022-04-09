@@ -27,13 +27,10 @@ Sub saveData(ByVal inp As String, Optional ByVal rowNum As String = "4")
     Dim key
     Dim mapper
     Set mapper = CreateObject("Scripting.Dictionary")
-    Dim valList As Object
-    Set valList = CreateObject("System.Collections.ArrayList")
-    Dim cellList As Object
-    Set cellList = CreateObject("System.Collections.ArrayList")
     Set data = CreateObject("Scripting.Dictionary")
     Dim tableName As String
     tableName = "ScoutingData"
+    Dim teleCargoAc As Integer
 
     'Set up map fields for every year
     mapper.Add "l", "l"
@@ -78,7 +75,7 @@ Sub saveData(ByVal inp As String, Optional ByVal rowNum As String = "4")
             End If
             data.Add key, value
         Next
-                
+        
         'manual bash to put data where it needs to be in data entry sheet
         'note the switch in 1st and 2nd line, caused by accident in qr output, don't change
         Worksheets("Data Entry").Range("C" + rowNum) = data.Item("sl")
@@ -88,7 +85,7 @@ Sub saveData(ByVal inp As String, Optional ByVal rowNum As String = "4")
         Worksheets("Data Entry").Range("G" + rowNum) = data.Item("au")
         Worksheets("Data Entry").Range("H" + rowNum) = data.Item("al")
         Worksheets("Data Entry").Range("I" + rowNum) = data.Item("acd")
-        Worksheets("Data Entry").Range("J" + rowNum) = data.Item("tca")
+        Worksheets("Data Entry").Range("J" + rowNum) = CStr(CInt(data.Item("tu")) + CInt(data.Item("tl")) + CInt(data.Item("tcd")))
         Worksheets("Data Entry").Range("K" + rowNum) = data.Item("tu")
         Worksheets("Data Entry").Range("L" + rowNum) = data.Item("tl")
         Worksheets("Data Entry").Range("M" + rowNum) = data.Item("tcd")
