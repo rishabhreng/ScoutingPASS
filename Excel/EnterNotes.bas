@@ -1,5 +1,5 @@
 'add to module 3
-Sub EnterNotes(commentInput As String, teamNum As String)
+Sub EnterComments(commentInput As String, teamNum As String)
 
 'First, go to that teams tab
     Sheets(teamNum).Select
