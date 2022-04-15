@@ -2,6 +2,12 @@
 
 Edited by Rishabh Rengarajan: new config sheet, works with SPAMalytics.
 
+To use With SPAMalytics (template from https://www.chiefdelphi.com/t/2022-frc-team-180-spamalytics-scouting-system-v1-0/402720): 
+1) Make sure the Developer tab is enabled in Excel. Add a button in the Data Entry page, and open the VBA editor.
+2) In Module5, replace the existing code with all of the code from the QRReader.bas file in the Excel folder. In Module3, add the EnterComments.bas code.
+3) Go back to the Data Entry page and right=click the button, then pres "assign macro" and select the macro called "process6QRCodeInput." 
+4) After the Team List & Match List have been added, the button will work as intended, taking in a string of data from a QR code on the ScoutingPASS webpage and parsing it properly in the Data Entry. The comments will be automated, but if you want to enter them manually, the "Enter Comments" button works too.
+
 
 # Scouting P.A.S.S.
 
